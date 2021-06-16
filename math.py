@@ -17,3 +17,5 @@ def divide(x,y):#on bug789
    return DIVIDE BY zero
  else:
   return x/y
+def square(x):
+  return x*x

@@ -8,5 +8,12 @@ def subtract(x,y):
 def multiply(x,y):
     return x*y #bug456
 #division
+
 def divide(x,y):
     return x/y # MAin branch
+
+def divide(x,y):#on bug789
+  if y==0:
+   return DIVIDE BY zero
+ else:
+  return x/y
